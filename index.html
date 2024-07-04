@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MEMO</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>New MEMO</h1>
+            <form class="memo-form">
+                <input id="memo-title" type="text" placeholder="제목을 입력하세요" required>
+                <textarea id="memo-content" rows="15" required></textarea>
+                <div class="button-container">
+                    <button type="submit">저장</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="right">
+            <h1>MEMO Board</h1>
+            <div id="memo-board">
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="src/memo.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+
+button{
+    width:fit-content;
+}
+
+.container{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    margin:0 auto;
+}
+
+.left{
+    flex:1;
+    
+}
+
+.right{
+    flex:3;
+    background-color:burlywood;
+    max-height: 100vh;
+    overflow-y: scroll;
+
+}
+
+.memo-form{
+    display:flex;
+    flex-direction: column;
+    gap:2vh;
+    width:80%;
+    margin: 0 auto;
+}
+
+#memo-content{
+    height: 40vh;
+}
+
+#memo-board{
+    display:flex;
+    flex-wrap:wrap;
+    /* 꽉 차면 다음으로 넘김 */
+    justify-content: center;
+    gap:2vw;
+}
+
+
+.memo{
+    display:flex;
+    flex-direction: column;
+    padding: 1vw;
+    width: 25%; /* 25프로 공간차지 */
+    height: 40vh;
+    background-color:yellow;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    
+}
+
+.memo-content{
+    height:90%;
+    overflow-y: scroll;
+}
+
+.button-container{
+    display:flex;
+    justify-content: end;
+    gap:0.5vw;
+}
